@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
 
         self.setMinimumSize(QSize(350, 300))
-        self.setWindowTitle("PyQt Line Edit example (textfield) - pythonprogramminglanguage.com")
+        self.setWindowTitle("Amazon Product Scrapper")
 
         self.objectColumn = QLabel(self)
         self.objectColumn.setText("Colonne des objets: ")
